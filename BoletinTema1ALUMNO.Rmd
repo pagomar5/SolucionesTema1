@@ -157,7 +157,7 @@ e.  Determina las diferencia entre los animales que no aparecen en ambos conjunt
 
 ```{r}
 
-
+#Las diferencias que hay son un cambio de peso en los dinosaurios, se puede ver ya que todos tienen un peso distinto
 
 
 
