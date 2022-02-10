@@ -133,7 +133,8 @@ d.  Usa la función **intersect** y almacena en la variable *commonAnimals* los 
 
 ```{r}
 
-
+commonAnimals<- intersect(Animals2,mammals)
+commonAnimals
 
 
 
