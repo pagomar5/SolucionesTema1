@@ -92,6 +92,24 @@ b.  Usa las funciones **dim, head, tail, str** para una primera visión de los c
 c.  Muestra los nombres de las filas y las columnas (**rownames**, **colnames**)
 
 ```{r}
+#a
+help(mammals)
+help(Animals2)
+#b
+dim(mammals)
+head(mammals)
+tail(mammals)
+str(mammals)
+
+dim(Animals2)
+head(Animals2)
+tail(Animals2)
+str(Animals2)
+#c
+rownames(mammals)
+colnames(mammals)
+rownames(Animals2)
+colnames(Animals2)
 
 
 
