@@ -238,6 +238,8 @@ qqPlot(log(Animals2$brain))
 
 ```{r}
 
+qqPlot(cabbages$HeadWt)
+qqPlot(cabbages$VitC)
 
 
 
