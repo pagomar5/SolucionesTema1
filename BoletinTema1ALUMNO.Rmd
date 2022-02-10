@@ -1,7 +1,7 @@
 ---
 title: "Boletín Tema 1"
 subtitle: Tratamiento de Datos. Grado en Ciencia de Datos- UV
-author: "Marcelino Martínez"
+author: "Pablo Gomez Martinez"
 date:  "`r Sys.Date()`"  #Pondría la fecha del día actual
 params:
   lang: ES
