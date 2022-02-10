@@ -145,8 +145,9 @@ e.  Usa **setdiff** para averiguar qué animales no están en ambos conjuntos. �
 
 ```{r}
 
-
-
+diferentes<- setdiff(Animals2,mammals)
+diferentes
+#Hay 3 animales y son Dinosaurios
 
 
 
