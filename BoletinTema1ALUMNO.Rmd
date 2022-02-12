@@ -159,7 +159,8 @@ e.  Determina las diferencia entre los animales que no aparecen en ambos conjunt
 
 ```{r}
 
-#Las diferencias que hay son un cambio de peso en los dinosaurios, se puede ver ya que todos tienen un peso distinto
+#Las diferencias que hay son un cambio de peso en los dinosaurios, se puede ver 
+#ya que todos tienen un peso distinto
 
 
 
@@ -177,7 +178,7 @@ e.  Determina las diferencia entre los animales que no aparecen en ambos conjunt
 ```{r}
 qqPlot(log(mammals$brain))
 qqPlot(log(Animals2$brain))
-#Podemos devir que tienen un comportamineto muy similar y ambos siguen una distribucción Gaussiana
+#Podemos decir que tienen un comportamineto muy similar y ambos siguen una distribucción Gaussiana
 ```
 
 3.  La función **library** sin argumentos abre una ventana y muestra las librerías que han sido instaladas.
@@ -188,11 +189,12 @@ qqPlot(log(Animals2$brain))
 
     ```{r}
 libReturn<- library()
+libReturn
 x<-head(libReturn)
 x$results[1:5,]
 
 dim(libReturn$results)
-#Tngo 229 librerias instaladas
+#Tengo 229 librerias instaladas
 
 
 
