@@ -190,9 +190,9 @@ qqPlot(log(Animals2$brain))
     ```{r}
 libReturn<- library()
 libReturn
+str(libReturn)
 x<-head(libReturn)
 x$results[1:5,]
-
 dim(libReturn$results)
 #Tengo 229 librerias instaladas
 
