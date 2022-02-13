@@ -350,7 +350,9 @@ abline(Model3,lty=7,col = 'green')
 c.  Usa **summary** con cada uno de los modelos obtenidos y observa **Coefficients**. Dado que hemos planteado un modelo $y=mx+n$, donde $y=VitC$ y $x=HeadWt$. La función **lm** nos permite obtener **(Intercept)**; **n** y la pendiente **HeadWt**; **m** (además de otros parámetros adicionales que evalúan la caracterísiticas del modelo). Observa que en todos los casos, la pendiene es negativa indicando que las calabazas de más peso contienen menos vitamina C. No te preocupes por el resto de parámetros del modelo, por el momento.
 
 ```{r}
-
+summary(Model1)
+summary(Model2)
+summary(Model3)
 
 
 ```
