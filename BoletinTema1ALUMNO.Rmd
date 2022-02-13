@@ -320,6 +320,13 @@ b.  Repite el apartado anterior, pero obteniendo un modelo para cada una de las 
 
 ```{r}
 
+plot(cabbages$HeadWt, cabbages$VitC)
+plot(whiteside$Temp, whiteside$Gas, pch=c(6,16)[cabbages$Cult])
+legend(x="topright",legend=c("c39","c59"), pch=c(6,16))
+Model1 <- lm(VitC ~ HeadWt, data = cabbages, subset = which(Cult == "c39"))
+Model2 <- lm(VitC ~ HeadWt, data = cabbages , subset = which(Cult == "c52"))
+abline(Model1, lty=2)
+abline(Model2,lty = 3)
 
 
 
