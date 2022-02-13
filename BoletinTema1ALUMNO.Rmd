@@ -223,7 +223,18 @@ str(cabbages)
 #B
 summary(is.na(cabbages))
 #No hay ningun valor nulo
+#c
+dim(Chile)
+#hay 60 registros y 4 variables
+str(Chile)
+#La primera variable es un Factor la segunda es un Factor la tercera es 
+#numeric y la ultima es in int
+summary(is.na(Chile))
+#hay valores nulos
 
+#D
+summary(cabbages)
+summary(Chile)
 
 
 
