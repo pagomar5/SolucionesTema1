@@ -220,6 +220,9 @@ dim(cabbages)
 str(cabbages)
 #La primera variable es un Factor la segunda es un Factor la tercera es 
 #numeric y la ultima es in int
+#B
+summary(is.na(cabbages))
+#No hay ningun valor nulo
 
 
 
